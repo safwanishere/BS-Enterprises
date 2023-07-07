@@ -14,7 +14,25 @@
 }
 
 .blueOne{
-    top: 25vh;
-    left: -45vh;
+    top: 30vh;
+    left: -50vh;
     background-color: #476A99;
+}
+
+.greenTwo{
+    background-color: #5B9851;
+    top: 140vh;
+    right: -70vh;
+}
+
+.blueTwo{
+    background-color: #476A99;
+    top: 250vh;
+    left: -50vh;
+}
+
+.greenThree{
+    background-color: #5B9851;
+    top: 360vh;
+    right: -70vh;
 }

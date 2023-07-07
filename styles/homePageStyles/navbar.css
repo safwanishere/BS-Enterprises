@@ -1,4 +1,27 @@
 navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 25vh;
+    height: 8vh;
+    background-color: rgba(255, 255, 255, 0.25)
+    }
+
+.pageLinks{
+    display: flex;
+    gap: 5vh;
+}
+
+navbar p{
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 50;
+    color: black;
+}
+
+.pageLinks a{
+    font-family: 'Roboto';
+    font-size: medium;
+    color: black;
+    text-decoration: none;
 }

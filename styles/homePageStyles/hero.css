@@ -1,0 +1,76 @@
+main{
+    margin: 10vh 25vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    gap: 2vh;
+}
+
+main img{
+    width: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.prehead{
+    font-family: "Outfit";
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #696969;
+    margin-bottom: 10px;
+}
+
+main h1{
+    margin-bottom: 10px;
+}
+
+.heroText p{
+    width: 70vh;
+    color: #343434;
+    margin-bottom: 10px;
+}
+
+h1 span{
+    color: #66B559;
+}
+
+.heroButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1, .b2{
+    font-family: "Outfit";
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: 7vh;
+    width: 25vh;
+    border-radius: 10vh;
+    border-width: 0px;
+}
+
+.b1{
+    background-color: #66B559;
+}
+
+.b2{
+    background-color: #5F90D2;
+    margin-right: 20vh;
+}
+
+.b1:hover, .b2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.b1:active, .b2:active{
+    opacity: 0.4;
+}
