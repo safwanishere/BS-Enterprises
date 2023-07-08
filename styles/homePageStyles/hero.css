@@ -40,11 +40,6 @@ h1 span{
     color: #66B559;
 }
 
-.heroButtons{
-    display: flex;
-    justify-content: space-between;
-}
-
 .b1, .b2{
     font-family: "Outfit";
     font-size: 14px;
@@ -63,7 +58,7 @@ h1 span{
 
 .b2{
     background-color: #5F90D2;
-    margin-right: 20vh;
+    margin-left: 10vh;
 }
 
 .b1:hover, .b2:hover{
