@@ -101,23 +101,6 @@ h1 span{
         letter-spacing: 1px;
     }
     main h1{
-        font-size: 60px;
-    }
-    .heroText p{
-        font-size: 15px;
-    }
-    .b1, .b2{
-        height: 7vh;
-        width: 20vh;
-        font-size: 10px;
-    }
-    main img{
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 379px){
-    main h1{
         font-size: 40px;
     }
     .heroText p{
@@ -127,5 +110,8 @@ h1 span{
         height: 5vh;
         width: 15vh;
         font-size: 7px;
+    }
+    main img{
+        margin-top: 30px;
     }
 }
