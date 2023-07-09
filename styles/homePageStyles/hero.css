@@ -102,7 +102,6 @@ h1 span{
     }
     main h1{
         font-size: 60px;
-        line-height: 60px;
     }
     .heroText p{
         font-size: 15px;
@@ -114,5 +113,19 @@ h1 span{
     }
     main img{
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 379px){
+    main h1{
+        font-size: 40px;
+    }
+    .heroText p{
+        font-size: 12px;
+    }
+    .b1, .b2{
+        height: 5vh;
+        width: 15vh;
+        font-size: 7px;
     }
 }
