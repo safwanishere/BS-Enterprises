@@ -2,20 +2,22 @@ navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0vh 25vh;
+    padding: 0 12%;
     height: 8vh;
     background-color: rgba(255, 255, 255, 0.25)
     }
 
 .pageLinks{
     display: flex;
-    gap: 5vh;
+    width: 40%;
+    justify-content: flex-end;
+    gap: 10%;
 }
 
 navbar p{
     font-family: "Outfit";
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
     color: black;
 }
 
@@ -26,20 +28,11 @@ navbar p{
     text-decoration: none;
 }
 
-@media (max-width: 650px){
-    navbar{
-        padding: 0vh 50px;
-    }
-    .pageLinks{
-        gap: 2vh;
-    }
-}
-
-@media (max-width: 450px){
+@media (max-width: 425px){
     navbar p{
-        font-size: 15px;
+        font-size: 1.5rem;
     }
     .pageLinks a{
-        font-size: small;
+        font-size: 1.5rem;
     }
 }
