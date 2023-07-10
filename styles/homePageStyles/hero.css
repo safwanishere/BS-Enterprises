@@ -137,14 +137,26 @@ h1 span{
 }
 
 @media (max-width: 375px){
+    main{
+        padding: 6vh 10%;
+    }
+    .preHead{
+        margin-bottom: 0.3rem;
+    }
     main h1{
         font-size: 4rem;
+        margin-bottom: 0.7rem;
     }
     .heroText p{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
     }
     .b1, .b2{
         font-size: 0.9rem;
         width: 35%;
+    }
+    .heroButtons{
+        padding: 3vh 50% 5vh;
     }
 }
