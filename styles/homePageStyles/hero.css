@@ -87,6 +87,9 @@ h1 span{
 }
 
 @media (max-width: 768px){
+    body{
+        position: relative;
+    }
     main{
         flex-direction: column;
     }
